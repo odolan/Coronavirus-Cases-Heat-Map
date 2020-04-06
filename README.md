@@ -15,6 +15,7 @@ Packages needed = [1:geopy, 2:datetime, 3:pandas, 4:numpy, 5:gmplot]
 **As long as the "Counties.csv" file remains intact and the latitude and longitude data is preserved, the initializeCountiesFile() function never needs to be run. 
 
 RUNNING PROGRAM: 
+
 1: Retrieve a google map api key from https://developers.google.com/maps/documentation/javascript/get-api-key. Enter in the key here: gmap.apikey =  "API_KEY_HERE". This is within the createMap() function.
 2: Run program and wait for the html file containing the google map to save.
 3: Open the html file in a browser 
