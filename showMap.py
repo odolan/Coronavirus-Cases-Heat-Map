@@ -101,11 +101,8 @@ def createMap():
             """comment out one of the following two size variables depending on scaling desired"""
             size = 1000 * np.log(cases*2) #more even distribution
             size = cases #actual scaling 
-
-        #gmap.scatter(lat, lon, 'red', size=10, marker=False)
-
+            
         gmap.circle(lat, lon, radius=size, color='red') #adds a circle to the map 
-
     gmap.draw("map.html") #saved the html map to file location 
 
 createMap() # calls main run function 
