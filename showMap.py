@@ -91,7 +91,7 @@ def updateTimes():
 # create gmplot map (stored as html file)
 def createMap():
     gmap = gmplot.GoogleMapPlotter(37.428, -95, 5)
-    gmap.apikey =  "AIzaSyAhMtQi2GQPG8fb1PXGiRNdLUon5-revWs" #insert your own google map API key here
+    gmap.apikey =  "API_KEY_HERE" 
 
     updateTimes() #updates the data if its needed
 
