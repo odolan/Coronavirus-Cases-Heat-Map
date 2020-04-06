@@ -22,7 +22,7 @@ RUNNING PROGRAM:
 
 https://github.com/nytimes/covid-19-data -> Data used from NYT 
 
-
-
-
+# example using more even distribution of circle sizes (not as good at showing scale of case amounts)
 ![Image Failed to Load](example.png)
+# example using more accurate distribution (not as good at showing the spread of the virus)
+![Image Failed to Load](example_real_scaling.png)
